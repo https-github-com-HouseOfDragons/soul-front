@@ -1,0 +1,32 @@
+body {
+    width: 90%;
+    margin: auto;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-1, .box-2, .box-3 {
+    width: 500px;
+    height: 353px;
+    background-color: red;
+    margin-top: 50px;
+}
+
+.box-3{
+    margin: 50px auto;
+}
+
+.btn-with{
+    color: white !important;
+}
+
+.btn-login {
+    background-color: #F34213 !important;
+}
+
+#quem-somos {
+    background-color: rgba(9, 20, 19, 0.9);
+}
