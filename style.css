@@ -94,6 +94,9 @@ footer {
 @media only screen and (max-width: 600px) {
    
     main {
+    width: 95%;
+    margin: auto;
+   
       display: flex;
       flex-direction: column !important;
       
@@ -128,6 +131,7 @@ footer {
     }
     .banner-finish button {
         margin-top: 150px;
+        width: 90%;
     }
 
     footer {
