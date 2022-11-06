@@ -9,11 +9,20 @@ body {
 }
 
 .box-1, .box-2, .box-3 {
+
+    text-align: center;
     width: 500px;
     height: 353px;
-    background-color: red;
+    background-color:#212B2A;
     margin-top: 50px;
+    color: #F5F7F6CC;
+    padding: 30px;
+    box-sizing: border-box;
 }
+#quem-somos {
+    background-color: #212B2A;
+}
+
 
 .box-3{
     margin: 50px auto;
@@ -26,7 +35,50 @@ body {
 .btn-login {
     background-color: #F34213 !important;
 }
-
-#quem-somos {
-    background-color: rgba(9, 20, 19, 0.9);
+.higher {
+    text-transform: uppercase;
+    margin-top: 10px;
 }
+
+.partners{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+h1 {
+    text-transform: uppercase;
+    color: #F34213;
+    padding-top: 100px;
+    
+}
+
+.banner-finish {
+    background-image: url("./assets/banner final.svg");
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    margin: 40px auto;
+}
+
+.banner-finish p {
+    color: white;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.banner-finish button {
+    position: relative;
+    margin-top: 210px;
+    background: #F34213;
+    opacity: 0.8;
+    box-shadow: 0px 4px 4px rgba(10, 11, 11, 0.25);
+    border-radius: 16px;
+    padding: 20px;
+    border: none;
+    width: 300px;
+    color: white;
+}
+
